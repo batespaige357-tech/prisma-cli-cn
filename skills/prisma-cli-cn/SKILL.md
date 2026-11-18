@@ -269,7 +269,7 @@ Use the command categories above for navigation, then open the specific command 
 
 ## 中文适配 — prisma-cli-cn 新增
 
-独立非官方适配，保留上游 Prisma ORM 7 的命令说明、版本边界及破坏性命令检查。metadata 中 author/version 沿用上游来源与参考版本，不代表本适配获得官方认证。
+保留上游 Prisma ORM 7 的命令说明、版本边界及破坏性命令检查。metadata 中 author/version 沿用上游来源与参考版本。
 
 ### 按中文意图选择参考
 

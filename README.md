@@ -2,9 +2,9 @@
 
 **中文找命令，保留 Prisma 7 原始参考。**
 
-基于 [prisma/skills 的 prisma-cli](https://github.com/prisma/skills/tree/main/prisma-cli) 小幅适配，独立维护、非官方。适用于已有 **Prisma ORM 7** 项目；上游参考版本为 **7.9.1**，不是通用最新版指南。
+适用于已有 **Prisma ORM 7** 项目；上游参考版本为 **7.9.1**，不是通用最新版指南。
 
-## 保留与补充
+## 功能与流程
 
 保留初始化、客户端生成、开发数据库、迁移、数据库操作和诊断命令的原流程，以及全部 20 个参考文件。保留上游对 ORM、Platform/Compute 和破坏性命令的区分。
 
@@ -20,7 +20,9 @@ npx skills add batespaige357-tech/prisma-cli-cn --skill prisma-cli-cn
 
 本包提供工作流和参考文档，不包含 Prisma CLI、数据库或连接凭据。命令使用项目已有的匹配版本。Prisma 8、连接修复和新项目选型请使用[上游 prisma-orm-setup](https://github.com/prisma/skills/tree/main/prisma-orm-setup)；Platform/Compute 需使用对应上游技能，本包不捆绑它们。
 
-## 来源与验证
+## 来源与许可
+
+基于 [prisma/skills 的 prisma-cli](https://github.com/prisma/skills/tree/main/prisma-cli)，由本仓库维护。
 
 MIT，保留 Prisma 原版权与许可证，详见 [CHANGES.md](CHANGES.md)。metadata.author/version 保留的是上游信息。
 
